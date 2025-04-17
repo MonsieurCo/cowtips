@@ -49,7 +49,7 @@ then
     echo "jq could not be found, please install it to check for updates"
     echo "0.0.0" > ~/.term_tips/version
 else
-git=https://api.github.com/repos/MonsieurCo/Formidable-Conseils-du-Terminal/releases/latest
+git=https://api.github.com/repos/MonsieurCo/cowtips/releases/latest
 tag= eval "curl -s $git| jq -r '.tag_name' " >> ~/.term_tips/version
 fi
 
