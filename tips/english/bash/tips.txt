@@ -160,3 +160,11 @@ Use 'systemctl list-units --type=service --state=running' to see all running ser
 Use 'systemctl restart <service_name>' to restart the service.
 %
 To view a service's logs, use 'journalctl -u <service_name> -xe'.
+%
+To know how much space is left on your disks, use 'df -h -a or you can use 'baobab for a graphical view !'
+%
+To know how much space is left on your home directory, use 'df -h /home'
+%
+To know the size of a folder, use 'du -h -s <folder>'
+%
+ifconfig is deprecate, use 'ip a' to manage your network interfaces.
